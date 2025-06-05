@@ -1,13 +1,19 @@
-import { BaseLayout } from "@/components/layout/BaseLayout";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { ImpactSection } from "@/components/sections/ImpactSection";
+import { PoolsSection } from "@/components/sections/PoolsSection";
+import { AudienceSection } from "@/components/sections/AudienceSection";
+import { CTASection } from "@/components/sections/CTASection";
+import { Footer } from "@/components/sections/Footer";
 
 export default function Home() {
-    return (
-        <BaseLayout>
-            <div className="container mx-auto px-4 py-8">
-                <h1 className="text-4xl font-bold text-center">
-                    Welcome to Our Landing Page
-                </h1>
-            </div>
-        </BaseLayout>
-    );
+  return (
+    <div>
+      <HeroSection />
+      <ImpactSection />
+      <PoolsSection />
+      <AudienceSection />
+      <CTASection />
+      <Footer />
+    </div>
+  );
 }
