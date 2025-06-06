@@ -72,3 +72,8 @@ body {
   color: var(--foreground);
   font-family: "Satoshi", sans-serif;
 }
+@media (min-width: 768px) {
+  .impact-clip {
+    clip-path: url(#curveClip);
+  }
+}

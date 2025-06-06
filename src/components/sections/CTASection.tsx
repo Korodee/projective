@@ -19,7 +19,7 @@ export function CTASection() {
         <h2 className="text-5xl md:text-6xl font-semibold text-white mb-12 text-center">
           Time to get started.
         </h2>
-        <button className="bg-gradient-to-r from-[#FFD166] to-[#FFB800] text-[#2B1816] font-medium rounded-full px-12 py-2 text-sm shadow-md hover:scale-105 transition">
+        <button className="cursor-pointer bg-gradient-to-r from-[#FFD166] to-[#FFB800] text-[#2B1816] font-medium rounded-full px-12 py-2 text-sm shadow-md hover:scale-105 transition">
           Get Started
         </button>
       </div>

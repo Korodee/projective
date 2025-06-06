@@ -7,7 +7,7 @@ import { Footer } from "@/components/sections/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#FFF6F1]">
       <HeroSection />
       <ImpactSection />
       <PoolsSection />

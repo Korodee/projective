@@ -4,21 +4,21 @@ import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section className="relative h-[100vh] flex flex-col">
+    <section className="relative flex flex-col">
       <div className="w-full absolute top-0 left-0 z-10" />
       <Navbar />
-      <div className="h-[87vh] bg-gradient-to-r from-[#FFB726] to-[#FFD858]">
-        <div className="relative flex items-center mt-4 rounded-t-4xl px-3 py-3 bg-[#FFF6F1] overflow-hidden">
+      <div className=" bg-gradient-to-r from-[#FFB726] to-[#FFD858]">
+        <div className="relative flex items-center mt-4 rounded-t-4xl px-3 py-3 pb-48 bg-[#FFF6F1] overflow-hidden">
           {/* Background image and overlay */}
-          <div className="absolute inset-0 h-[100vh] z-0">
+          <div className="absolute inset-0  z-0">
             <div className="w-full h-full bg-[url('/hero-bg.png')] bg-cover bg-center bg-no-repeat" />
             <div className="absolute inset-0 bg-[#FFF6F1] opacity-92" />
           </div>
 
           {/* Foreground Content */}
-          <div className="relative z-10 w-full h-[87vh] flex flex-col lg:flex-row gap-6">
+          <div className="relative z-10 w-full md:h-[87vh] flex flex-col lg:flex-row gap-6">
             {/* Left Content */}
-            <div className="  items-center justify-center lg:w-1/2 px-[4rem] pt-[5rem] ">
+            <div className="  items-center justify-center lg:w-1/2 px-4 md:px-[4rem] pt-[2rem] md:pt-[5rem] ">
               {/* Logo */}
               <div className="flex items-center gap-2 mb-6">
                 <Image
@@ -46,7 +46,7 @@ export function HeroSection() {
               </p>
 
               {/* CTA Button */}
-              <button className="bg-gradient-to-r from-[#FFB726] to-[#FFD858] cursor-pointer hover:bg-yellow-500 text-black px-14 font-medium py-2 rounded-full text-sm transition-colors duration-200 mb-40 shadow-lg">
+              <button className="bg-gradient-to-r from-[#FFB726] to-[#FFD858] cursor-pointer hover:from-[#FFD858] hover:to-[#FFF2B0] hover:scale-105 hover:shadow-xl text-black px-14 font-medium py-2 rounded-full text-sm transition-all duration-300 mb-12 md:mb-40 shadow-lg">
                 Get Started
               </button>
 
@@ -62,7 +62,7 @@ export function HeroSection() {
             </div>
 
             {/* Right Content - Hero Image */}
-            <div className="flex-1  min-h-full">
+            <div className="flex-1 hidden md:block min-h-full">
               <div className="relative h-full">
                 <div className="relative rounded-3xl h-full overflow-hidden w-full ">
                   <Image
