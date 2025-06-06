@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function PoolsSection() {
   return (
-    <section className="w-full bg-[#FFF6F1] py-24 px-0">
+    <section className="w-full bg-[#FFF6F1] py-24 px-0" id="learn-more">
       {/* Top right gradient accent */}
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start px-6">

@@ -6,7 +6,7 @@ import { SiTelegram } from "react-icons/si";
 export function Footer() {
   return (
     <footer className="relative w-full bg-white pt-10 px-0 border-t border-[#F5E9E0]">
-      <div className="flex flex-col pb-12 md:flex-row max-w-7xl mx-auto items-start md:items-start justify-between gap-8 px-6">
+      <div className="flex flex-col pb-12 md:flex-row max-w-7xl mx-auto items-center md:items-start justify-between gap-8 px-6">
         {/* Left: Logo */}
         <div className="flex-1 min-w-[180px] flex items-center md:items-start justify-center md:justify-start md:mb-0">
           <Image

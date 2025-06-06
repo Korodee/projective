@@ -7,7 +7,7 @@ export function AudienceSection() {
         {/* For Investors Card */}
         <div className="relative flex-1 bg-white rounded-3xl p-10 flex flex-col justify-between overflow-visible">
           {/* Floating Icon */}
-          <div className="absolute -top-25 -right-5 md:-top-22 md:-right-5 z-10">
+          <div className="absolute -top-25 -right-5 md:-top-22 md:-right-5 z-10 animate-[spin_10s_ease-in-out_infinite]">
             <Image
               src="/per-big.svg"
               alt="Sun Icon"

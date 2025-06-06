@@ -51,14 +51,14 @@ export function HeroSection() {
               </button>
 
               {/* Scroll Indicator */}
-              <div className="flex gap-4 items-center">
+              <a className="flex gap-4 items-center w-fit" href="#learn-more">
                 <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[#55311599]">
                   <ChevronDownIcon className="w-8 h-8 text-white" />
                 </div>
                 <span className="text-[#55311599] text-sm font-bold tracking-wide">
                   SCROLL TO LEARN MORE
                 </span>
-              </div>
+              </a>
             </div>
 
             {/* Right Content - Hero Image */}
