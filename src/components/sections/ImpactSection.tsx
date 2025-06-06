@@ -45,7 +45,7 @@ export function ImpactSection() {
         <span className="text-[#FFB726] text-sm font-semibold mb-6 tracking-widest">
           BACKED BY
         </span>
-        <div className="flex flex-wrap justify-center gap-8 w-full">
+        <div className="flex flex-wrap justify-center px-3 md:px-0 gap-8 w-full">
           {[...Array(5)].map((_, i) => (
             <div key={i} className="flex flex-col items-center">
               <Image
